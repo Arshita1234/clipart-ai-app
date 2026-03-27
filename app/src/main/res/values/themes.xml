@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ✅ SIMPLE ANDROID BASE THEME (No Material Components needed) -->
+    <style name="Theme.ClipartApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.ClipartApp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@android:color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.ClipartApp</item>
+    </style>
+
+</resources>
